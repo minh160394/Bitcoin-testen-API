@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+body{
+    background-image: linear-gradient( white,#4bc0c0, #035F8D,white);;
+}
+.search-title{
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.bcaddress-head{
+    background:#4bc0c0;
+    font-family: 'Patua One', cursive;
+    position: relative;
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+.bcaddress-head-text{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.bcaddress{
+    background:#4bc0c0;
+    font-family: 'Patua One', cursive;
+    position: relative;
+}
+.bcaddress-header{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.undisplayed{
+    visibility: hidden;
+}
+.displayed{
+    visibility: visible;
+}
+.transnumber{
+    font-size: 1.8rem;
+    color: #4bc0c0;
+    font-weight: 450;
+}
+
+@media (max-width: 768px) {
+.bcaddress-header{
+    font-size: 0.5rem;
+}
+.bcaddress-head{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    height: 128px;
+}
+#bcaddress{
+    font-size: 0.7rem;
+    float: none;
+}
+}
+#bcaddress{
+    float: right;
+}

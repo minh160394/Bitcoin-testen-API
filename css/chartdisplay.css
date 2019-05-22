@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+    .chart-top{
+        background: #035F8D;
+        padding-top : 1rem;
+        padding-right: 1rem;
+    }
+    @media (min-width: 768px) {
+        .chart-top{
+            height:  80px;}
+    }
+    .chart-mid{
+        background: #035F8D;
+    }
+    .fright{
+        text-align: right;
+    }
+    .chart-bot{
+        height: 2rem;
+        background: #035F8D;
+    }
+    .headchart-left{
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: 'Baloo Chettan', cursive;
+        color: white;
+    }
+    .headchart-right{
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: 'Baloo Chettan', cursive;
+        color: white;
+    }
+    .headchart-right-pos{
+        font-size: 1.3rem;
+        font-weight: 500;
+        font-family: 'Baloo Chettan', cursive;
+        color: green;
+    }
+    .headchart-right-neg{
+        font-size: 1.3rem;
+        font-weight: 700;
+        font-family: 'Baloo Chettan', cursive;
+        color: red;
+    }
+    .datechart{
+       
+        font-family: 'Baloo Chettan', cursive;
+        font-weight: 500;
+        color: white;
+        
+    }

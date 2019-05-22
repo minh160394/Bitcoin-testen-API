@@ -1,0 +1,27 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "description": "test address bitcon api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minh160394/Bitcoin-testen-API.git"
+  },
+  "author": "MinhHuynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minh160394/Bitcoin-testen-API/issues"
+  },
+  "homepage": "https://github.com/minh160394/Bitcoin-testen-API#readme",
+  "dependencies": {
+    "bitcoinjs-lib": "^4.0.3",
+    "bitcore-lib": "^8.1.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "request": "^2.88.0"
+  }
+}
